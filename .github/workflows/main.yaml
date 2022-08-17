@@ -1,8 +1,5 @@
 name: build_deploy_aks
 on:
-  push:
-    paths:
-      - "azure-vote/**"
   workflow_dispatch:
   
 jobs:
